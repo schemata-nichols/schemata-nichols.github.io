@@ -18,13 +18,13 @@ jobs:
 
     steps:
       - name: Checkout site
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           path: schemata-site
 
       - name: Checkout content
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: schemata-nichols/schemata-content
           fetch-depth: 0
@@ -38,7 +38,7 @@ jobs:
           cache-dependency-path: schemata-site/package-lock.json
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Install dependencies
         working-directory: schemata-site
@@ -53,7 +53,7 @@ jobs:
         run: npx quartz build
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: schemata-site/public
 
@@ -68,4 +68,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
