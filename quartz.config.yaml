@@ -13,7 +13,7 @@ configuration:
     - templates
     - .obsidian
     - README.md
-    - LICENSE.md
+    - LICENSE
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
