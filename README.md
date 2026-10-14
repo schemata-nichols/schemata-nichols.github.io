@@ -1,17 +1,18 @@
-# Quartz v5
+# Schemata
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> There should be a quote in this callout, but we don't yet know what to put here.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+This repository builds the site for Schemata, a student-led association in Nichols School.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+This repository is under MIT license as [Quartz](https://quartz.jzhao.xyz/).
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+However, when applicable, resources used in this repository may be under other license(s).
 
-## Sponsors
+For details, check the [site](https://schemata-nichols.github.io/) for Schemata.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Links:
+
+- Site: https://schemata-nichols.github.io
+- Site Repo: https://github.com/schemata-nichols/schemata-nichols.github.io
+- Content Repo: https://github.com/schemata-nichols/schemata-content
+- Github Organization: https://github.com/schemata-nichols/
